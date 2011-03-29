@@ -18,7 +18,7 @@
 <div class="module">
     <h2>Delete Notification Schedule</h2>
     <form method="POST" action="#" class='buttons'>
-        <p class='message'>Are you sure you want to delete {{ group }}?</p>
+        <p class='message'>Are you sure you want to delete Notification Schedule #{{ notification.pk }}?</p>
         {% csrf_token %}
         <div class='form-action'>
             <input type='button' name='cancel' value='Cancel' />
